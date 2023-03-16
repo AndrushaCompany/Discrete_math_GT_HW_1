@@ -12,4 +12,5 @@ The program goes through all combinations of countries (converting numbers from 
 Optimization: we can immediately conclude that we do not need combinations where there are countries: 
 GB, IE, FI, SE (states in Scandinavia qlique is similar and we choose variant only with Norway), IS, RU, DE, FR, HU 
 - these vertices are not in G or have too high a degree.
-And we don't need combinations without these states: VA, NO, DK, PT - we definitely need leaves
+And we don't need combinations without these states: VA, NO, DK, PT 
+- we definitely need leaves.
