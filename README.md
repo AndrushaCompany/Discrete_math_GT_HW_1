@@ -9,8 +9,9 @@ The program using DFS in the graph looks for distances to all vertices and write
 
 To run the paragraph №1.(f), enter the command -f: 
 The program goes through all combinations of countries (converting numbers from 0 to 2^41 into binary form) and checks their adjacency using the adjacency table. 
-Optimization: we can immediately conclude that we do not need combinations where there are countries: 
+Optimization: 
+- we can immediately conclude that we do not need combinations where there are countries: 
 GB, IE, FI, SE (states in Scandinavia qlique is similar and we choose variant only with Norway), IS, RU, DE, FR, HU 
-- these vertices are not in G or have too high a degree.
-And we don't need combinations without these states: VA, NO, DK, PT 
-- we definitely need leaves.
+these vertices are not in G or have too high a degree.
+- And we don't need combinations without these states: VA, NO, DK, PT 
+we definitely need leaves.
