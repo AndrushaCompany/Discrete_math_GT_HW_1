@@ -10,7 +10,7 @@ int main(int argv, char* argc[]) {
     std::string command;
     if (argv < 2) {
         std::cout << "For paragraph (b) enter -b\n"
-                  << "For paragraph (b) enter -f\n"
+                  << "For paragraph (f) enter -f\n"
                   << std::endl;
     } else {
         command = argc[1];
@@ -186,21 +186,6 @@ if (command == "-b") {
         }
     }
 }
-
-//    std::vector<int> v;
-//    v.push_back(22);
-//    std::vector< std::array<int, 3> > q;
-//    for (int i = 0; i < 40; ++i) {
-//        if (e[22][i] > 1) {
-//            q.push_back({e[22][i], 22, i});
-//        }
-//    }
-//    std::sort(q.begin(), q.end());
-//    while(v.size() < 38) {
-//        for (int i = 0; i < q.size(); ++i) {
-//            if (e[q[i][2]])
-//        }
-//    }
 
 if (command == "-f") {
     int polinom = 0;
